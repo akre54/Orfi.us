@@ -31,6 +31,7 @@ if (isset($_GET['name'])) {
  	 var appID = "279836385418317";
  
      function AddUser(user) {
+     	user.authtoken = accessToken;
        $.post("get.php?type=adduser", user);
      }
 
