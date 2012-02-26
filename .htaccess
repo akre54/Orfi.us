@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^([^/\.]+)?$ hello.php?name=$1 [L]
+RewriteRule ^([^/\.]+)?$ index.php?name=$1 [L]
